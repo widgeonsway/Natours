@@ -25,6 +25,12 @@
         top: 3rem;
         right: 3rem;
       }
+      @include respond(phone) {
+        top: 2rem;
+        right: 8rem;
+      }
+
+   
 
     }
   
@@ -48,6 +54,13 @@
         right: 3.5rem;
       }
   
+      @include respond(phone-small) {
+        top: 2.5rem;
+        right: 8.5rem;
+      }
+  
+  
+    
   
    
     }
@@ -155,8 +168,6 @@
 
     &__checkbox:checked + &__button &__icon {
         background-color: transparent;
-
-
 
     }
     &__checkbox:checked + &__button &__icon::before {

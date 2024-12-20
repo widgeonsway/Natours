@@ -20,6 +20,9 @@
         transform: skewX(0);
 
     }
+    @include respond(phone-small) {
+        width: 70%;
+    }
    
 
     &__shape {

@@ -535,6 +535,11 @@ body {
     transform: skewX(0);
   }
 }
+@media only screen and (max-width: 580px) {
+  .story {
+    width: 70%;
+  }
+}
 .story__shape {
   width: 15rem;
   height: 15rem;
@@ -893,6 +898,12 @@ body {
     right: 3rem;
   }
 }
+@media only screen and (max-width: 37.5em) {
+  .navigation__button {
+    top: 2rem;
+    right: 8rem;
+  }
+}
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -914,6 +925,12 @@ body {
   .navigation__background {
     top: 3.5rem;
     right: 3.5rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .navigation__background {
+    top: 2.5rem;
+    right: 8.5rem;
   }
 }
 .navigation__nav {
