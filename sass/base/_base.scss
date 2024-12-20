@@ -3,11 +3,13 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+  
 }
 
 html {
   font-size: 62.5%;
+  
 
   @include respond(tab-land) {
     font-size: 56.25%;
@@ -25,10 +27,12 @@ html {
 body {
   font-family: "Lato", sans-serif;
   padding: 3rem;
+  overflow-x: hidden !important;
 
   @include respond(tab-port) {
     padding:0;
   }
+
 
 }
 
